@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Creating form
+        </title>
+    </head>
+    <body>
+        <form>
+            <!--html5 validation
+            how to turn autoSuggestion in html -->
+            <div>
+                <label> First name:
+                    <input type="text" required minlength="2" maxlength="12" autocomplete="off">
+                </label>
+            </div>
+            <div>
+                <label> Second name: </label>
+                <input type="text" required>
+            </div>
+
+            <div>
+                <label> Enter age: </label>
+                <input type="number" name="age" minlength="0" maxlength="100">
+            </div>
+
+            <div>
+                <label> Email: </label>
+                <input type="email">
+            </div>
+
+            <div>
+                <label> Password: </label>
+                <input type="password" minlegth="8" required>
+            </div>
+
+            <div>
+                <label> Select gender: </label>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> TransGender
+            </div>
+
+            <div> 
+                <label> Select city: </label>
+                <select>
+                <option> Banglore </option>
+                 <option> Mysore </option>
+                 <option> Shimoga </option>
+                 <option> Davanagere </option>
+                </select>
+            </div>
+
+            <div>
+                <label> Select course: </label>
+                <input type="checkbox"> Java
+                <input type="checkbox"> Python
+                <input type="checkbox"> Web
+            </div>
+
+            <div> 
+                <label> Select date of borth: </label>
+                <input type="date" name="dateofbirth">
+                </div>
+
+                <div>
+                    <label> Enter your mobile number: </label>
+                    <input type="tel" name="mobilenumber" placeholder="enter mob num" maxlength="10" required>
+                </div>
+
+                <div>
+                    <label> Address: </label>
+                    <textarea required></textarea>
+                </div>
+            
+                <div> 
+                    <label> Select file: </label>
+                    <input type="file" name="uploadfile">
+                </div>
+
+                <div>
+                    <button type="submit"> Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+        </form>
+        
+
+    </body>
+</html>

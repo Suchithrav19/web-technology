@@ -1,0 +1,86 @@
+/*Descendant selector*/
+    div p{
+            color:purple;
+         }
+
+    /* child selector */
+    div > p{
+
+            color:green;
+          }
+
+    /* Adjucent sibling selector */
+    div ~ p{
+            color:blue; 
+          }
+
+    /* color property */
+    div + p{
+        color:pink;
+          }
+
+    /* General sibling selector */
+    div ~ p{
+           /* color:rgb(250,10,46) */
+           color:3le246a; 
+           }
+           
+    /* Position
+    top,bottom,right,left */
+    .static {
+            position:static;
+            left:100px;
+            }
+
+    .relative {
+        bottom:19px;
+        right:-1px;
+        position:relative;
+    }
+
+    /* absolute */
+    .absolute{
+              top:300px;
+              left:0px;
+              position:relative;
+             }
+
+             .topleft{
+                position:absolute;
+                top:0;
+                left:0px;
+                right:-10px;
+                
+             }
+
+             .imageparent{
+                    position:relative;
+                }
+
+             .fixed{
+                position: fixed;
+                top:0;
+                right:0;
+                background-color:pink;
+             }
+
+             .sticky{
+                position:sticky;
+                top:0;
+                background-color:red;
+             }
+ 
+              ul{
+                list-style-type:none;
+                background-color:aqua
+              }
+
+              li{ 
+                padding:3px;
+                background-color:pink;
+              }
+
+
+
+
+
